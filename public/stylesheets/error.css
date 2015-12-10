@@ -1,0 +1,77 @@
+body {
+  background-color: #f1f1f1;
+  margin: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#errorContent {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  width: 940px;
+  height: 370px;
+}
+
+#errorContent li {
+  display: block;
+  position: absolute;
+  padding: 0
+}
+
+#img00 {
+  top: 170px;
+  left: 50px;
+  z-index: 10;
+}
+
+#img00 h1 {
+  display: block;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  left: 0px;
+  line-height: 54px;
+  text-align: center;
+}
+
+#img01 {
+  top: 94px;
+  left: 176px;
+  z-index: 9;
+}
+
+#img02 {
+  top: 150px;
+  left: 340px;
+  z-index: 8;
+}
+
+#img03 {
+  top: 297px;
+  left: 191px;
+  z-index: 7;
+}
+
+#img04 {
+  top: 263px;
+  left: 348px;
+  z-index: 6;
+}
+
+#img05 {
+  top: 73px;
+  left: 467px;
+  z-index: 5;
+}
+
+#img06 {
+  top: 113px;
+  left: 700px;
+  z-index: 4;
+}
