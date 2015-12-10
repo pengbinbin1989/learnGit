@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Page Error</title>
+<% include layout/head %>
+	<link rel='stylesheet' href='/stylesheets/error.css' />
+</head>
+<body>
+	<ul id="errorContent">
+		<li id="img00" x="2" y="1"><img title="0" class="js-plaxify" src="/images/error_00.png"><h1><%= status%></h1></li>
+		<li id="img01" x="1" y="1"><img title="1" class="js-plaxify" src="/images/error_01.png"></li>
+		<li id="img02" x="1" y="1"><img title="2" class="js-plaxify" src="/images/error_02.png"></li>
+		<li id="img03" x="1" y="1"><img title="3" class="js-plaxify" src="/images/error_03.png"></li>
+		<li id="img04" x="1" y="1"><img title="4" class="js-plaxify" src="/images/error_04.png"></li>
+		<li id="img05" x="5" y="2"><img title="5" class="js-plaxify" src="/images/error_05.png"></li>
+		<li id="img06" x="7.5" y="3"><img title="6" class="js-plaxify" src="/images/error_06.png"></li>		
+	</ul>
+	<p><%= message%></p>
+	<p><%= error%></p>
+	<script type="text/javascript" src="/javascripts/error.js"></script>
+</body>
+</html>
